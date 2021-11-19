@@ -1,0 +1,42 @@
+{
+    "name": "ryumin/bitrix-disk-ex",
+    "description": "Library creates full user folder structure with real files from bitrix24 disk & zip it",
+    "keywords": ["bitrix", "bitrixdisk", "bitrix24disk"],
+    "type": "library",
+    "homepage": "https://github.com/Katapios/bitrix-disk-ex/",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Dennis Ryumin",
+            "email": "fresh_idea@inbox.ru",
+            "homepage": "https://github.com/Katapios/bitrix-disk-ex/"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Ryumin\\BitrixDiskEx\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ryumin\\BitrixDiskEx\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "scripts": {
+ 
+    },
+    "suggest": {
+
+    }
+}
